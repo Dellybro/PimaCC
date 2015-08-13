@@ -1,0 +1,11 @@
+------------------dellyPolygon------------------
+-n: int;
+-length: double:
+-x: double:
+-y: double;
+------------------------------------------------
++dellyPolygon();
++dellyPolygon(int, double);
++dellyPolygon(int, double, double, double);
++getPerimeter(): double;
++getArea(): double;

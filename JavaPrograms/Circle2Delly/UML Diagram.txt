@@ -1,0 +1,15 @@
+----------------Circle------------------
+-x: double;
+-y: double;
+-radius: double; 
+----------------------------------------
++getRadius(): double
++getX(): double
++getY(): double
++Circle(): 
++Circle(x,y,Radius):
++getArea(): double 
++getPerimeter(): double
++inside(double x, double y): double
++contain(Circle): circle
++overlaps(Circle): circle

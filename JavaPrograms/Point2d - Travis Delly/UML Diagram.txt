@@ -1,0 +1,12 @@
+------------------Point2D-----------------------
+-x: double;
+-y: double;
+------------------------------------------------
++point2D();
++point2D(double x, double y);
++distance(double, x double y); double;
++distance(point2D); point2D;
++setX(double x); void
++setY(double y); void 
++getX(); double 
++getY(); double

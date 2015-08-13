@@ -1,0 +1,35 @@
+switch(var){
+	case (var):
+		break;
+	default
+}
+
+
+
+User inputs:
+
+ System.out.println(Long.toString(f));
+ 
+Char to Int 
+int replacer = Character.getNumericValue(symbol);
+String numHolder = Long.toString(number
+
+import java.util.Scanner --- input mechanism
+Scanner input = new Scanner(System.in)
+
+
+int (var) =  input.next(double/int/float/etc...)
+
+Math.random()*10 = single digit number 1-9;
+
+System.out.println -- LN = NEW LINE (system.out.print == NOT NEW LINE)
+
+math.pow
+
+pow(a,b)
+
+public class className{
+	
+	private static Scanner input = new Scanner(System.in);
+	
+	public static void main(String[] args){

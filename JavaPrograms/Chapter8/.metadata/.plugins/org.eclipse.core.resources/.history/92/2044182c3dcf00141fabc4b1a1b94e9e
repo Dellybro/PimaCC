@@ -1,0 +1,18 @@
+
+public class circle extends GeometricObject {
+	
+	public static int Radius;
+	
+	protected circle() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	protected circle(String color, boolean filled, int Radius) {
+		super(color, filled);
+		// TODO Auto-generated constructor stub
+		this.Radius = Radius;
+	}
+	
+	
+}

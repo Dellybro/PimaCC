@@ -1,0 +1,32 @@
+---------------GeometricObject implements Comparable------------------
+-filled: Boolean;
+-color: String;
+-dateCreated: java.util.Date;
+----------------------------------------------------------------------
++GeometricObject();
++GeometricObject(boolean filled, String color);
++getArea(); : abstract : double
++getPerimeter() : abstract : double
++setFilled(double x); void
++setColor(double y); void 
++getColor(); string 
++getFilled(); boolean
++getDate(): java.util.Date
++toString() : superClass : string
++compareTo() : compareable : int
+
+
+---------------Circle extends GeometricObject-------------------------
+-Radius : integer
+----------------------------------------------------------------------
++Circle();
++Circle(boolean filled, String color);
++getArea(); : abstract : double
++getPerimeter() : abstract : double
++setRadius(double x); void
++getRadius(): java.util.Date
++toString() : superClass : string
++compareTo() : compareable : int
+
+
+

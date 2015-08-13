@@ -1,0 +1,8 @@
+
+public class circle extends GeometricObject {
+
+	public circle() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+
+
+/*
+ * 	Programmer: TravisDelly
+ *  Date: March 19th, 2015
+ *  PointofProgram -> Learn loads about inheritance and polymorphism
+ *  Assignment: 8.1
+ */
+
+public class main {
+	public static parseInput strings = new parseInput();
+	
+	public static void main(String[] args) {
+		
+		//Polymorphism
+		GeometricObject circle1 = new Circle();
+		GeometricObject circle2 = new Circle();
+		
+		
+		((Circle) circle1).setRadius(strings.strInput("Radius"));
+		((Circle) circle2).setRadius(strings.strInput("Radius"));
+		
+		if (circle1.compareTo(circle2) == 1){
+			System.out.println("Circle 1 has a larger Radius");
+		}
+		else if (circle2.compareTo(circle1) == 1){
+			System.out.println("Circle 2 has a larger Radius");
+		}
+		else{
+			System.out.println("Same size Radius");
+		}
+	}
+
+}

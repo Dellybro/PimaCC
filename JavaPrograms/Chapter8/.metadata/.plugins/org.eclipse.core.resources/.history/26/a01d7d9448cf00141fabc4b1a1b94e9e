@@ -1,0 +1,30 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Circle circle1 = new Circle();
+		Circle circle2 = new Circle();
+		
+		
+		if (circle1.compareTo(circle2) == 1){
+			System.out.println("Circle 1 has a larger Radius");
+		}
+		else if (circle2.compareTo(circle1) == 1){
+			System.out.println("Circle 2 has a larger Radius");
+		}
+		else{
+			System.out.println("Same size Radius");
+		}
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

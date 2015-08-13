@@ -1,0 +1,12 @@
+---------------Complex implements Cloneable------------------
+-Real: double;
+-Imaginary: double;
+----------------------------------------------------------------------
++Complex();
++Complex(double real, double imaginary);
++setReal(double real); Double
++setImaginary(double imaginary); double 
++getImaginary(); double
++getReal(): double
++toString() : string
++Clone() : compareable : int

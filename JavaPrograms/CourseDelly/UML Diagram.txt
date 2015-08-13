@@ -1,0 +1,21 @@
+
+/*
+ 
+ Developper - Travis Delly
+ Assignment 6.2
+ feb/16/2015
+ Purpose - course class. Learning inheritance and polymorphism
+
+ Edit: 3/29/15, added header
+*/
+
+
+----------------Course------------------
+-numberOfStudent: int;
+-Students: ArrayList 
+----------------------------------------
++course(string courseName):
++getNumberof(): int;
++addStudent(): void;
++DeleteStudent(): void;
++getCourseName(): void;
